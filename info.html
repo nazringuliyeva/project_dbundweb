@@ -1,0 +1,217 @@
+<!DOCTYPE>
+<html>
+<head>
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+	<link href="https://fonts.googleapis.com/css?family=Lora:400i" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+	<link href='https://fonts.googleapis.com/css?family=Sofia' rel='stylesheet'>
+		<title>Menus.de</title>
+</head>
+<body>
+
+<div class="container">
+	<nav class="navbar navbar-expand-lg">
+  <a class="navbar-brand" href="#"><img src="img/restaurant-menu.png"  style="width: 60px; height: 60px;"></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item">
+        <a class="nav-link" href="index.html">Home</a>
+      </li>
+     
+      <li class="nav-item">
+        <a class="nav-link" href="#">About us</a>
+      </li>
+       <li class="nav-item">
+      	<div class="dropdown">
+  <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    Choose dish type
+  </button>
+  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton" style="margin-top: 1.5%">
+    <a class="dropdown-item bydish" href="#"">Starters</a>
+    <a class="dropdown-item byingr" href="#"">Mains</a>
+    <a class="dropdown-item byingr" href="#"">Sides</a>
+    <a class="dropdown-item byingr" href="#"">Cheeses</a>
+    <a class="dropdown-item byingr" href="#"">Desserts</a>
+    <a class="dropdown-item byingr" href="#"">Drinks</a>
+
+
+  </div>
+</div>
+      </li>
+    </ul>
+    <form class="form-inline my-2 my-lg-0">
+    	<div class="dropdown">
+  <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    Choose Criteria
+  </button>
+  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+    <a class="dropdown-item bydish" href="#" onclick="searchdish()">Search Dish</a>
+    <a class="dropdown-item byingr" href="#" onclick="searchingr()">Search Ingredients</a>
+  </div>
+</div>
+      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search" id="placeholdertext">
+      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+    </form>
+  </div>
+</nav>
+
+</div>
+
+<div class="container">
+	<div class="row">
+		<div class="col-md-6 map">
+			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2483.5395858955226!2d-0.07961968418541468!3d51.50331597963447!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48760345ea32de63%3A0xff0085142e85dc47!2sTom+Simmons+-+Tower+Bridge!5e0!3m2!1sen!2sde!4v1529497218644" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>	
+		</div>
+		<div class="col-md-6">
+			<div class="row">
+				<div class="col-md-12">
+					<h1>Tom Simmons UK</h1>
+					<div class="row">
+						<div class="col-md-12"><p style="font-weight: bold;">Address:</p></div>
+						<div class="col-md-12"><p>2 Still Walk, London SE1 2RA</p></div>
+					</div>
+					<div class="row">
+						<div class="col-md-12"><p style="font-weight: bold;">Opening hours:</p></div>
+						<div class="col-md-12"><p>Mon: Closed <br>     Tues  - Sat: 12pm - 4pm / 5:30pm - 11pm  <br>   Sun: Closed</p></div>
+					</div>
+					<div class="row">
+						<div class="col-md-12"><p style="font-weight: bold;">Telephone:</p></div>
+						<div class="col-md-12"><p>+44 (0) 203 848 2100</p></div>
+					</div>
+					<div class="row">
+						<div class="col-md-12"><p style="font-weight: bold;">Email:</p></div>
+						<div class="col-md-12"><p>info@tom-simmons.co.uk</p></div>
+					</div>
+				</div>
+			</div>
+		</div> 
+	</div>
+</div>
+
+<!-- Container for the image gallery -->
+<!-- <div class="container">
+ -->
+  <!-- Full-width images with number text -->
+ <!--  <div class="mySlides">
+    <div class="numbertext">1 / 6</div>
+      <img src="img/in.jpg" style="width:100%">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">2 / 6</div>
+      <img src="img/chef.jpg" style="width:100%">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">3 / 6</div>
+      <img src="img/steak.jpg" style="width:100%">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">4 / 6</div>
+      <img src="img/sweet.jpg" style="width:100%">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">5 / 6</div>
+      <img src="img/rest.jpg" style="width:100%">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">6 / 6</div>
+      <img src="img/tomsimmons.jpg" style="width:100%">
+  </div>
+ -->
+  <!-- Next and previous buttons -->
+ <!--  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+ -->
+  <!-- Image text -->
+<!--   <div class="caption-container">
+    <p id="caption"></p>
+  </div> -->
+
+  <!-- Thumbnail images -->
+  <!-- <div class="row">
+    <div class="column">
+      <img class="demo cursor" src="img_woods.jpg" style="width:100%" onclick="currentSlide(1)" alt="The Woods">
+    </div>
+    <div class="column"> 
+      <img class="demo cursor" src="img_5terre.jpg" style="width:100%" onclick="currentSlide(2)" alt="Cinque Terre">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="img_mountains.jpg" style="width:100%" onclick="currentSlide(3)" alt="Mountains and fjords">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="img_lights.jpg" style="width:100%" onclick="currentSlide(4)" alt="Northern Lights">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="img_nature.jpg" style="width:100%" onclick="currentSlide(5)" alt="Nature and sunrise">
+    </div> 
+    <div class="column">
+      <img class="demo cursor" src="img_snow.jpg" style="width:100%" onclick="currentSlide(6)" alt="Snowy Mountains">
+    </div>
+  </div>
+</div> -->
+
+
+
+ <script type="text/javascript">
+  		function searchdish(){
+  			document.getElementById("placeholdertext").placeholder = "Search Dish";
+  		} 
+
+  	 </script>
+  <script type="text/javascript">
+  		function searchingr(){
+  			document.getElementById("placeholdertext").placeholder = "Search Ingredients";
+  		} 
+
+  	 </script>
+ 
+
+  <!-- 	 <script type="text/javascript">
+  	 	var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("demo");
+  var captionText = document.getElementById("caption");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+  captionText.innerHTML = dots[slideIndex-1].alt;
+}
+  	 </script> -->
+
+  <script src="js/jquery-3.3.1.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+
+
+</body>
+</html>
